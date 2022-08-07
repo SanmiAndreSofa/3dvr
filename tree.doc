@@ -1,0 +1,343 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 3CEE-0D9E
+X:.
+|   .clangformat
+|   .gitignore
+|   LICENSE
+|   Readme.md
+|   TBRaymarcherPlugin.uplugin
+|   tree.csv
+|   tree.doc
+|   tree.pdf
+|   
++---Content
+|   +---Blueprints
+|   |   +---Actors
+|   |   |   |   BP_RaymarchClipPlane.uasset
+|   |   |   |   BP_RaymarchLight.uasset
+|   |   |   |   BP_RaymarchVolume.uasset
+|   |   |   |   
+|   |   |   \---VR
+|   |   |       |   BP_LeftMotionController.uasset
+|   |   |       |   BP_RightMotionController.uasset
+|   |   |       |   BP_VRPawn.uasset
+|   |   |       |   TBRM_VRGameMode.uasset
+|   |   |       |   
+|   |   |       \---VRMenu
+|   |   |               BP_LoaderMenuPanel.uasset
+|   |   |               BP_TFMenuPanel.uasset
+|   |   |               
+|   |   \---Widgets
+|   |           WBP_FullMenu.uasset
+|   |           WBP_SliderAndBox.uasset
+|   |           WBP_TransferFuncMenu.uasset
+|   |           WBP_VolumeLoadMenu.uasset
+|   |           
+|   +---Curves
+|   |       TF_CT-AAA.uasset
+|   |       TF_CT-AAA2.uasset
+|   |       TF_CT-Air.uasset
+|   |       TF_CT-Bone.uasset
+|   |       TF_CT-Bones.uasset
+|   |       TF_CT-Cardiac.uasset
+|   |       TF_CT-Cardiac2.uasset
+|   |       TF_CT-Cardiac3.uasset
+|   |       TF_CT-Chest-Contrast-Enhanced.uasset
+|   |       TF_CT-Chest-Vessels.uasset
+|   |       TF_CT-Coronary-Arteries-2.uasset
+|   |       TF_CT-Coronary-Arteries-3.uasset
+|   |       TF_CT-Coronary-Arteries.uasset
+|   |       TF_CT-Cropped-Volume-Bone.uasset
+|   |       TF_CT-Fat.uasset
+|   |       TF_CT-Liver-Vasculature.uasset
+|   |       TF_CT-Lung.uasset
+|   |       TF_CT-MIP.uasset
+|   |       TF_CT-Muscle.uasset
+|   |       TF_CT-Pulmonary-Arteries.uasset
+|   |       TF_CT-Soft-Tissue.uasset
+|   |       TF_CT-X-ray.uasset
+|   |       
+|   +---DefaultResources
+|   |       avg.uasset
+|   |       TF_Texture.uasset
+|   |       
+|   +---Fractals
+|   |   |   EBP_CreateGiantVolumeTexture.uasset
+|   |   |   M_Mandelbulb_Raymarch_Inst.uasset
+|   |   |   M_Mandelbulb_Raymarch_New_Inst.uasset
+|   |   |   
+|   |   +---2DFractalVisualizer
+|   |   |   |   BP_FractalScreen.uasset
+|   |   |   |   BP_FractalVideoProcessor.uasset
+|   |   |   |   BP_FractalVisualizerScreen.uasset
+|   |   |   |   HeightMapVideoPlayer.uasset
+|   |   |   |   HeightMapVideoPlayer_Video.uasset
+|   |   |   |   HeightMap_RT.uasset
+|   |   |   |   MF_SeparateScreenUV.uasset
+|   |   |   |   M_Heighmap_Passthrough.uasset
+|   |   |   |   M_HeightMapToNormalMap.uasset
+|   |   |   |   M_Heightmap_Visualize.uasset
+|   |   |   |   M_HeightMap_Visualize_Inst.uasset
+|   |   |   |   NormalMap_RT.uasset
+|   |   |   |   
+|   |   |   +---AudioVisualizer
+|   |   |   |       BP_AudioVisualizeDriver.uasset
+|   |   |   |       
+|   |   |   \---SourceData
+|   |   |           file_example_WAV_10MG.uasset
+|   |   |           Fluid_-_Displacement_Map.uasset
+|   |   |           Sunset_-_Source_Displacement_Map.uasset
+|   |   |           
+|   |   +---3DFractals
+|   |   |       BP_Mandelbulb_Visualizer.uasset
+|   |   |       FractalRayMarchingMaterial.uasset
+|   |   |       MandelBulbDeltaVariables.uasset
+|   |   |       MF_FractalInclude.uasset
+|   |   |       M_Mandelbulb_Old_NormalColors.uasset
+|   |   |       M_Mandelbulb_Old_NormalColors_Inst.uasset
+|   |   |       M_Mandelbulb_Raymarch_DistanceAmbientOcclusion.uasset
+|   |   |       M_Mandelbulb_Raymarch_DistanceAmbientOcclusion_OneColor.uasset
+|   |   |       M_Mandelbulb_Raymarch_DistanceAmbientOcclusion_WithBlend.uasset
+|   |   |       M_Mandelbulb_Raymarch_DistanceColored_Inst.uasset
+|   |   |       M_Mandelbulb_Raymarch_New_Inst.uasset
+|   |   |       M_Mandelbulb_Raymarch_NormalColors_Inst.uasset
+|   |   |       M_Mandelbulb_Raymarch_ProperNormals.uasset
+|   |   |       M_Mandelbulb_Raymarch_ProperNormals_Inst.uasset
+|   |   |       M_Mandelbulb_Raymarch_ProperNormals_Inst_WIthColoring.uasset
+|   |   |       M_Mandelbulb_Raymarch_ProperNormals_WithColoring.uasset
+|   |   |       
+|   |   \---Maps
+|   |           Map_2DFractalVizualizer.umap
+|   |           Map_2DFractalVizualizer_BuiltData.uasset
+|   |           Map_3DFractal.umap
+|   |           Map_3DFractal_BuiltData.uasset
+|   |           
+|   +---Maps
+|   |       Map_Neutral_Lighting.umap
+|   |       Map_Neutral_Lighting_BuiltData.uasset
+|   |       TBRaymarcherShowcase.umap
+|   |       TBRaymarcherShowcase_BuiltData.uasset
+|   |       TBRaymarcherShowcase_VR.umap
+|   |       
+|   +---Materials
+|   |   |   MF_RaymarchInclude.uasset
+|   |   |   M_CubeBorder.uasset
+|   |   |   M_CuttingPlane.uasset
+|   |   |   M_Intensity_Raymarch.uasset
+|   |   |   M_Raymarch.uasset
+|   |   |   
+|   |   \---Map
+|   |           M_WorldFloor.uasset
+|   |           T_WorldFloor.uasset
+|   |           
+|   \---Meshes
+|       |   Unit_Cube.uasset
+|       |   Unit_Cube_Inside_Out.uasset
+|       |   Unit_Cylinder.uasset
+|       |   Unit_Plane.uasset
+|       |   Unit_Plane_Subdivided.uasset
+|       |   
+|       \---Map
+|               SM_WorldPlane.uasset
+|               VerySubdividedPlane.uasset
+|               
++---Resources
+|       Icon128.png
+|       
+\---Source
+    +---FractalMarcher
+    |   |   FractalMarcher.build.cs
+    |   |   
+    |   +---Private
+    |   |   |   FractalMarcher.cpp
+    |   |   |   
+    |   |   +---Actor
+    |   |   |       FractalAudioVisualizeDriver.cpp
+    |   |   |       FractalVisualizerScreen.cpp
+    |   |   |       FractalVolume.cpp
+    |   |   |       
+    |   |   \---Rendering
+    |   |           FractalShaders.cpp
+    |   |           FractalVideoProcessor.h
+    |   |           MyProceduralMesh.cpp
+    |   |           
+    |   +---Public
+    |   |   |   FractalMarcher.h
+    |   |   |   
+    |   |   +---Actor
+    |   |   |       FractalAudioVisualizeDriver.h
+    |   |   |       FractalVisualizerScreen.h
+    |   |   |       FractalVolume.h
+    |   |   |       
+    |   |   \---Rendering
+    |   |           FractalShaders.h
+    |   |           FractalVideoProcessor.cpp
+    |   |           MyProceduralMesh.h
+    |   |           
+    |   \---Shaders
+    |       \---Private
+    |               CalculateMandelbulbSDF.usf
+    |               QuickLight.usf
+    |               SDFMarcher.usf
+    |               
+    +---Raymarcher
+    |   |   Raymarcher.build.cs
+    |   |   
+    |   +---Private
+    |   |   |   Raymarcher.cpp
+    |   |   |   
+    |   |   +---Actor
+    |   |   |   |   RaymarchClipPlane.cpp
+    |   |   |   |   RaymarchLight.cpp
+    |   |   |   |   RaymarchVolume.cpp
+    |   |   |   |   
+    |   |   |   \---VR
+    |   |   |       |   Grabbable.cpp
+    |   |   |       |   VRMotionController.cpp
+    |   |   |       |   VRPawn.cpp
+    |   |   |       |   
+    |   |   |       \---VRMenu
+    |   |   |               LoaderMenuPanel.cpp
+    |   |   |               TFMenuPanel.cpp
+    |   |   |               VRMenuPanel.cpp
+    |   |   |               
+    |   |   +---Rendering
+    |   |   |       LightingShaders.cpp
+    |   |   |       LightingShadersExperimental.cpp
+    |   |   |       LightingShaderUtils.cpp
+    |   |   |       RaymarchTypes.cpp
+    |   |   |       
+    |   |   +---Util
+    |   |   |       RaymarchUtils.cpp
+    |   |   |       
+    |   |   \---Widget
+    |   |           SliderAndValueBox.cpp
+    |   |           TransferFuncMenu.cpp
+    |   |           VolumeLoadMenu.cpp
+    |   |           
+    |   +---Public
+    |   |   |   Raymarcher.h
+    |   |   |   
+    |   |   +---Actor
+    |   |   |   |   RaymarchClipPlane.h
+    |   |   |   |   RaymarchLight.h
+    |   |   |   |   RaymarchVolume.h
+    |   |   |   |   
+    |   |   |   \---VR
+    |   |   |       |   Grabbable.h
+    |   |   |       |   VRMotionController.h
+    |   |   |       |   VRPawn.h
+    |   |   |       |   
+    |   |   |       \---VRMenu
+    |   |   |               LoaderMenuPanel.h
+    |   |   |               TFMenuPanel.h
+    |   |   |               VRMenuPanel.h
+    |   |   |               
+    |   |   +---Rendering
+    |   |   |       LightingShaders.h
+    |   |   |       LightingShadersExperimental.h
+    |   |   |       LightingShaderUtils.h
+    |   |   |       RaymarchMaterialParameters.h
+    |   |   |       RaymarchTypes.h
+    |   |   |       
+    |   |   +---Util
+    |   |   |       RaymarchUtils.h
+    |   |   |       
+    |   |   \---Widget
+    |   |           SliderAndValueBox.h
+    |   |           TransferFuncMenu.h
+    |   |           VolumeLoadMenu.h
+    |   |           
+    |   \---Shaders
+    |       \---Private
+    |               AddDirLightShader.usf
+    |               AddDirLightShader_GPUSync.usf
+    |               ChangeDirLightShader.usf
+    |               NormalizedRaymarchMaterials.usf
+    |               RaymarcherCommon.usf
+    |               RaymarchMaterialCommon.usf
+    |               WindowedRaymarchMaterials.usf
+    |               WindowedSampling.usf
+    |               
+    +---RayUtils
+    |   |   RayUtils.build.cs
+    |   |   
+    |   +---Private
+    |   |       FPerfTimer.cpp
+    |   |       RayUtils.cpp
+    |   |       
+    |   \---Public
+    |           FPerfTimer.h
+    |           RayUtils.h
+    |           
+    +---VolumeTextureToolkit
+    |   |   VolumeTextureToolkit.Build.cs
+    |   |   
+    |   +---Private
+    |   |   |   TextureUtilities.cpp
+    |   |   |   VolumeTextureToolkit.cpp
+    |   |   |   VolumeTextureToolkitBPLibrary.cpp
+    |   |   |   
+    |   |   +---Util
+    |   |   |       UtilityShaders.cpp
+    |   |   |       
+    |   |   \---VolumeAsset
+    |   |       |   VolumeAsset.cpp
+    |   |       |   VolumeInfo.cpp
+    |   |       |   
+    |   |       +---DICOMParser
+    |   |       |       Copyright.txt
+    |   |       |       DICOMAppHelper.cpp
+    |   |       |       DICOMFile.cpp
+    |   |       |       DICOMParser.cpp
+    |   |       |       
+    |   |       \---Loaders
+    |   |               DICOMLoader.cpp
+    |   |               MHDLoader.cpp
+    |   |               VolumeLoader.cpp
+    |   |               
+    |   +---Public
+    |   |   |   TextureUtilities.h
+    |   |   |   VolumeTextureToolkit.h
+    |   |   |   VolumeTextureToolkitBPLibrary.h
+    |   |   |   
+    |   |   +---Util
+    |   |   |       UtilityShaders.h
+    |   |   |       
+    |   |   \---VolumeAsset
+    |   |       |   VolumeAsset.h
+    |   |       |   VolumeInfo.h
+    |   |       |   WindowingParameters.h
+    |   |       |   
+    |   |       +---DICOMParser
+    |   |       |       Copyright.txt
+    |   |       |       DICOMAppHelper.h
+    |   |       |       DICOMCallback.h
+    |   |       |       DICOMConfig.h
+    |   |       |       DICOMFile.h
+    |   |       |       DICOMParser.h
+    |   |       |       DICOMParserMap.h
+    |   |       |       DICOMTypes.h
+    |   |       |       
+    |   |       \---Loaders
+    |   |               DICOMLoader.h
+    |   |               MHDLoader.h
+    |   |               VolumeLoader.h
+    |   |               
+    |   \---Shaders
+    |       \---Private
+    |               ClearTextureShader.usf
+    |               ClearVolumeTextureShader.usf
+    |               GaussBlurSeparated.usf
+    |               
+    \---VolumeTextureToolkitEditor
+        |   VolumeTextureToolkitEditor.Build.cs
+        |   
+        +---Private
+        |       VolumeAssetFactory.cpp
+        |       VolumeTextureToolkitEditor.cpp
+        |       
+        \---Public
+                VolumeAssetFactory.h
+                VolumeTextureToolkitEditor.h
+                
